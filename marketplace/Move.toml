@@ -1,0 +1,8 @@
+[package]
+name = "marketplace"
+
+[dependencies]
+Sui = { local = "../../sui-testnet/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+marketplace = "0x0"
