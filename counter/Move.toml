@@ -1,0 +1,10 @@
+[package]
+name = "counter"
+version = "0.0.1"
+published-at = "0x934961afd9f4df1ab10781face5668bf84cfdf3c1e14de0a9232f3a907a403e4"
+
+[dependencies]
+Sui = { local = "../../sui-testnet/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+counter = "0x0"

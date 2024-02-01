@@ -43,7 +43,7 @@ module marketplace::marketplace {
             id, 
             items,
             payments
-        })
+        });
     }
 
     /// List an item at the Marketplace.
